@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Redirección a Redes Sociales</h1>
+    
+    <script>
+      // Configura la URL de redirección
+      const redirectURL = "https://catyrr4.blogspot.com/?id=12345";
+      
+      // Configura los parámetros de vista previa de redes sociales
+      const title = "NEW CONTENT";
+      const description = "NEW CONTENT";
+      const image = "https://i.ibb.co/tcpb2P2/64.jpg";
+      const twitterUser = "@CARAOTADIGITAL";
+      
+      // Redirecciona a la URL y agrega parámetros
+      window.location.href = `${redirectURL}?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description)}&image=${encodeURIComponent(image)}&twitterUser=${encodeURIComponent(twitterUser)}`;
+    </script>
+  </body>
+</html>
